@@ -18,7 +18,7 @@ const provinces = [
     { name: "San Juan", capital: "San Juan" },
     { name: "San Luis", capital: "San Luis" },
     { name: "Santa Cruz", capital: "Río Gallegos" },
-    { name: "Santa Fe", capital: "Santa Fe" },
+    { name: "Santa Fe", capital: "Santa Fe De la Vera Cruz" },
     { name: "Santiago del Estero", capital: "Santiago del Estero" },
     { name: "Tierra del Fuego", capital: "Ushuaia" },
     { name: "Tucumán", capital: "San Miguel de Tucumán" }
@@ -95,7 +95,7 @@ function createConfusingOption(correctAnswer) {
     if (correctAnswer=="Río Gallegos"){
         confusingOption="Rio De Santa Cruz"
     }
-    if (correctAnswer=="Santa Fe"){
+    if (correctAnswer=="Santa Fe De la Vera Cruz"){
         confusingOption="Rosario"
     }
     if (correctAnswer=="Santiago del Estero"){

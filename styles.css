@@ -10,7 +10,7 @@ body {
 .container {
     text-align: center;
     max-width: 600px;
-        /* Ancho del contenedor */
+      
    
     overflow: auto;  
     height: 600px;  

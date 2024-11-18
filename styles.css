@@ -10,6 +10,9 @@ body {
 .container {
     text-align: center;
     max-width: 600px;
+    width: 300px;      /* Ancho del contenedor */
+    height: 200px;     /* Alto del contenedor */
+    overflow: auto;    
 }
 
 h1 {
